@@ -1,21 +1,12 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import { ref } from 'vue'
 import InputText from 'primevue/inputtext'
 
 const inputValue = ref('')
 
-const getTitle = async (url: string) => {
-  if (url.length) {
-    fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`, { mode: 'no-cors' })
-      .then((response) => {
-        if (response.ok) return response.json()
-        throw new Error('Network response was not ok.')
-      })
-      .then((data) => console.log(data.contents))
-  }
+// const getTitle = async (url: string) => {
 
-  return
-}
+// }
 </script>
 
 <template>
@@ -44,4 +35,4 @@ const getTitle = async (url: string) => {
 .prime-link_input {
   width: 30%;
 }
-</style>
+</style> -->
