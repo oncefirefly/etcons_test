@@ -5,6 +5,7 @@
     <router-link to="/">home</router-link>
     <!-- <router-link to="/prime-link">prime link</router-link> -->
     <router-link to="/prime-datepicker">prime datepicker</router-link>
+    <router-link to="/prime-multiselect">prime multiselect</router-link>
   </nav>
 </template>
 
